@@ -1,10 +1,9 @@
 # openwrt-phicomm-k2p-build-config
 OpenWrt/LEDE build config for Phicomm K2P Wireless router. (For my personal use&backup)
 
-If you want to use this config file to compile your firmware, go to here first to get the source code repository and more config info:
+If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
-https://github.com/coolsnowwolf/lede/
-
+Due to stability reasons, not using mt76 open source driver for now. Please check [here](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0) for closed source driver.
 Then put the .config file under the code directory and run `make -jX V=s`, X as your CPU core number.
 
 If I keep this file up to date, you should be able to compile your own firmware.
@@ -12,12 +11,14 @@ If I keep this file up to date, you should be able to compile your own firmware.
 Use it as your own risk.
 
 
-ì³Ñ¶K2PµÄOpenWrt/LEDE±àÒëÅäÖÃÎÄ¼ş
+æ–è®¯K2Pçš„OpenWrt/LEDEç¼–è¯‘é…ç½®æ–‡ä»¶
 
-Èç¹ûÄãÒªÓÃ±¾²Ö¿âµÄÅäÖÃÎÄ¼ş±àÒë£¬½¨ÒéÏÈÈ¥leanµÄ²Ö¿â¿´Ò»ÏÂÏà¹ØËµÃ÷£¬±¾ÅäÖÃÎÄ¼şÎªleanµÄOpenWrtÔ´ÂëÉú³É£¬±¾ÒâÊÇ¸öÈËÊ¹ÓÃÒÔ¼°±¸·İ¡£
+å¦‚æœä½ è¦ç”¨æœ¬ä»“åº“çš„é…ç½®æ–‡ä»¶ç¼–è¯‘ï¼Œå»ºè®®å…ˆå»[leançš„ä»“åº“](https://github.com/coolsnowwolf/lede/)çœ‹ä¸€ä¸‹ç›¸å…³è¯´æ˜ï¼Œæœ¬é…ç½®æ–‡ä»¶ä¸ºleançš„OpenWrtæºç ç”Ÿæˆï¼Œæœ¬æ„æ˜¯ä¸ªäººä½¿ç”¨ä»¥åŠå¤‡ä»½ã€‚
 
-½«.configÎÄ¼ş·ÅÖÃÔÚÔ´´úÂë¸ùÄ¿Â¼ÏÂÔËĞĞ`make -jX V=s`¼´¿É±àÒë£¬ÆäÖĞXÎªCPUÏß³ÌÊı¡£
+å‡ºäºç¨³å®šæ€§è€ƒè™‘æš‚æ—¶ä¸ä½¿ç”¨mt76å¼€æºé©±åŠ¨ï¼Œè¯·ä½¿ç”¨æ­¤å¤„çš„[é—­æºé©±åŠ¨](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)ã€‚
 
-Èç¹û±¾ÎÄ¼ş¼°Ê±¸üĞÂ£¬Ó¦¸ÃÊÇÄÜÕı³£±àÒë¹Ì¼şµÄ£¨Ö¸openwrt´úÂë²Ö¿âÃ»ÓĞÎÊÌâµÄÇé¿öÏÂ£©
+å°†.configæ–‡ä»¶æ”¾ç½®åœ¨æºä»£ç æ ¹ç›®å½•ä¸‹è¿è¡Œ`make -jX V=s`å³å¯ç¼–è¯‘ï¼Œå…¶ä¸­Xä¸ºCPUçº¿ç¨‹æ•°ã€‚
 
-Çë×ÔĞĞÕå×ÃÊ¹ÓÃ£¬Èç³öÏÖÈÎºÎÎÊÌâºó¹û×Ô¸º¡£
+å¦‚æœæœ¬æ–‡ä»¶åŠæ—¶æ›´æ–°ï¼Œåº”è¯¥æ˜¯èƒ½æ­£å¸¸ç¼–è¯‘å›ºä»¶çš„ï¼ˆæŒ‡openwrtä»£ç ä»“åº“æ²¡æœ‰é—®é¢˜çš„æƒ…å†µä¸‹ï¼‰
+
+è¯·è‡ªè¡Œæ–Ÿé…Œä½¿ç”¨ï¼Œå¦‚å‡ºç°ä»»ä½•é—®é¢˜åæœè‡ªè´Ÿã€‚
