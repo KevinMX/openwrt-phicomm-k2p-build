@@ -1,5 +1,5 @@
 # openwrt-phicomm-k2p-build
-.configOpenWrt/LEDE build config and prebuilt firmware images for Phicomm K2P Wireless router. (For my personal use&backup)
+OpenWrt/LEDE build config and prebuilt firmware images for Phicomm K2P Wireless router. (For my personal use&backup)
 
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
