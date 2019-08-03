@@ -19,6 +19,8 @@ Use it as your own risk.
 
 将.config文件放置在源代码根目录下运行`make -jX V=s`即可编译，如提示out of sync请重新运行`make menuconfig`然后保存再进行编译。其中X为CPU线程数。
 
+编译教程参考：[OpenWrt/LEDE编译小记（斐讯K2P）](https://www.jianshu.com/p/eed71e8a22cc)
+
 如果本文件及时更新，应该是能正常编译固件的（指openwrt代码仓库没有问题的情况下）
 
 请自行斟酌使用，如出现任何问题后果自负。
