@@ -24,3 +24,6 @@ Use it as your own risk.
 如果本文件及时更新，应该是能正常编译固件的（指openwrt代码仓库没有问题的情况下）
 
 请自行斟酌使用，如出现任何问题后果自负。
+
+TODO: 内存/闪存 自适应，参考：https://github.com/coolsnowwolf/lede/issues/1507
+咱的k2p没有硬该，用不到这个功能，所以有可能永远也不会加进去（逃
