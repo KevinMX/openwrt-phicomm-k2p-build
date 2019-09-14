@@ -18,16 +18,12 @@
 ```luci-app-accesscontrol
 luci-app-arpbind
 luci-app-autoreboot
-luci-app-ddns (已包含阿里云/cloudflare等ddns脚本)
-luci-app-familycloud (电信家庭云提速)
-luci-app-filetransfer
+luci-app-ddns (包含cloudflare ddns脚本)
 luci-app-firewall
 luci-app-flowoffload
-luci-app-nlbwmon (带宽监控)
 luci-app-ramfree
-luci-app-sqm (已包含额外的SQM脚本)
-luci-app-ssr-plus (v2ray+Kcptun+ShadowsocksR&服务端)
-luci-app-statistics
+luci-app-sqm
+luci-app-ssr-plus (v2ray+ShadowsocksR&服务端)
 luci-app-upnp
 luci-app-vlmcsd (KMS服务器)
 luci-app-wifischedule
@@ -57,16 +53,12 @@ A brief list for the stuff that I use:
 ```luci-app-accesscontrol
 luci-app-arpbind
 luci-app-autoreboot
-luci-app-ddns (including extra scripts for aliyun, cloudflare, etc)
-luci-app-familycloud (China Telecom Network boost tool/FamilyCloudSpeeder)
-luci-app-filetransfer
+luci-app-ddns (including extra script for cloudflare)
 luci-app-firewall
 luci-app-flowoffload
-luci-app-nlbwmon (Netlink based bandwidth accounting)
 luci-app-ramfree
-luci-app-sqm (including extra scripts)
-luci-app-ssr-plus (v2ray+Kcptun+ShadowsocksR&server)
-luci-app-statistics
+luci-app-sqm
+luci-app-ssr-plus (v2ray+ShadowsocksR&server)
 luci-app-upnp
 luci-app-vlmcsd (KMS Server)
 luci-app-wifischedule
