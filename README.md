@@ -1,6 +1,8 @@
 # openwrt-phicomm-k2p-build
 ## 斐讯K2P的OpenWrt/LEDE编译配置文件及预编译固件（自用&备份用）
 
+###本仓库暂停更新
+
 如果你要用本仓库的配置文件编译，建议先去[lean的仓库](https://github.com/coolsnowwolf/lede/)看一下相关说明，本配置文件为lean的OpenWrt源码生成，本意是个人使用以及备份。
 
 出于稳定性考虑暂时不使用mt76开源驱动，请使用此处的[闭源驱动](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)。
@@ -32,12 +34,12 @@ luci-theme-argon
 ipv6helper
 mtk 5.0.2.0闭源驱动
 ```
-TODO: 内存/闪存 自适应，参考：https://github.com/coolsnowwolf/lede/issues/1507
-咱的k2p没有硬改，用不到这个功能，所以有可能永远也不会加进去（逃
 
 ***
 
 ## OpenWrt/LEDE build config and prebuilt firmware images for Phicomm K2P Wireless router. (For my personal use&backup)
+
+###Temporarily paused update
 
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
@@ -67,4 +69,3 @@ luci-theme-argon
 ipv6helper
 mtk 5.0.2.0 closed source driver
 ```
-TODO: RAM/flash size auto detect, since I did not hard-modded my k2p, so maybe it will never be implemented ;) Here's an example of how to do this: https://github.com/coolsnowwolf/lede/issues/1507
