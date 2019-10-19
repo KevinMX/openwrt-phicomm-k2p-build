@@ -1,7 +1,7 @@
 # openwrt-phicomm-k2p-build
 ## 斐讯K2P的OpenWrt/LEDE编译配置文件及预编译固件（自用&备份用）
 
-###本仓库暂停更新
+本仓库暂停更新
 
 如果你要用本仓库的配置文件编译，建议先去[lean的仓库](https://github.com/coolsnowwolf/lede/)看一下相关说明，本配置文件为lean的OpenWrt源码生成，本意是个人使用以及备份。
 
@@ -39,7 +39,7 @@ mtk 5.0.2.0闭源驱动
 
 ## OpenWrt/LEDE build config and prebuilt firmware images for Phicomm K2P Wireless router. (For my personal use&backup)
 
-###Temporarily paused update
+Temporarily paused update
 
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
