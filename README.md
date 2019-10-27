@@ -1,8 +1,6 @@
 # openwrt-phicomm-k2p-build
 ## 斐讯K2P的OpenWrt/LEDE编译配置文件及预编译固件（自用&备份用）
 
-本仓库暂停更新
-
 如果你要用本仓库的配置文件编译，建议先去[lean的仓库](https://github.com/coolsnowwolf/lede/)看一下相关说明，本配置文件为lean的OpenWrt源码生成，本意是个人使用以及备份。
 
 出于稳定性考虑暂时不使用mt76开源驱动，请使用此处的[闭源驱动](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)。
@@ -20,12 +18,14 @@
 ```luci-app-accesscontrol
 luci-app-arpbind
 luci-app-autoreboot
-luci-app-ddns (包含cloudflare ddns脚本)
+luci-app-ddns (包含额外的ddns脚本)
 luci-app-firewall
 luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+ShadowsocksR&服务端)
+luci-app-v2ray-server
+luci-app-unbound
 luci-app-upnp
 luci-app-vlmcsd (KMS服务器)
 luci-app-wifischedule
@@ -38,8 +38,6 @@ mtk 5.0.2.0闭源驱动
 ***
 
 ## OpenWrt/LEDE build config and prebuilt firmware images for Phicomm K2P Wireless router. (For my personal use&backup)
-
-Temporarily paused update
 
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
@@ -55,12 +53,14 @@ A brief list for the stuff that I use:
 ```luci-app-accesscontrol
 luci-app-arpbind
 luci-app-autoreboot
-luci-app-ddns (including extra script for cloudflare)
+luci-app-ddns (including extra scripts)
 luci-app-firewall
 luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+ShadowsocksR&server)
+luci-app-v2ray-server
+luci-app-unbound
 luci-app-upnp
 luci-app-vlmcsd (KMS Server)
 luci-app-wifischedule
