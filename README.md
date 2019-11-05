@@ -25,7 +25,6 @@ luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+ShadowsocksR&服务端)
 luci-app-v2ray-server
-luci-app-unbound
 luci-app-upnp
 luci-app-vlmcsd (KMS服务器)
 luci-app-wifischedule
@@ -60,7 +59,6 @@ luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+ShadowsocksR&server)
 luci-app-v2ray-server
-luci-app-unbound
 luci-app-upnp
 luci-app-vlmcsd (KMS Server)
 luci-app-wifischedule
