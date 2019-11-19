@@ -5,7 +5,7 @@
 
 出于稳定性考虑暂时不使用mt76开源驱动，请使用此处的[闭源驱动](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)。
 
-将.config文件放置在源代码根目录下运行`make -jX V=s`即可编译，如提示out of sync请重新运行`make menuconfig`然后保存再进行编译。其中X为CPU线程数。如需已编译好的固件请在[release](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/)中自取。
+将.config文件放置在源代码根目录下运行`make -jX V=s`即可编译，如提示out of sync请重新运行`make menuconfig`然后保存再进行编译。其中X为CPU线程数。如需已编译好的固件请在[releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/)中自取。
 
 编译教程参考：[OpenWrt/LEDE编译小记（斐讯K2P）](https://www.jianshu.com/p/eed71e8a22cc)
 
@@ -41,7 +41,7 @@ mtk 5.0.2.0闭源驱动
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
 Due to stability reasons, not using mt76 open source driver for now. Please check [here](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0) for closed source driver.
-Then put the .config file under the code directory and run `make -jX V=s`, X as your CPU core number. If prompt "out of sync" simply run `make menuconfig` again then compile. Go to [Releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/) for prebuilt images if you prefer.
+Then put the .config file under the code directory and run `make -jX V=s`, X as your CPU core number. If prompt "out of sync" simply run `make menuconfig` again then compile. Go to [releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/) for prebuilt images if you prefer.
 
 If I keep this file up to date, you should be able to compile your own firmware.
 
