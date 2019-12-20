@@ -3,7 +3,8 @@
 
 如果你要用本仓库的配置文件编译，建议先去[lean的仓库](https://github.com/coolsnowwolf/lede/)看一下相关说明，本配置文件为lean的OpenWrt源码生成，本意是个人使用以及备份。
 
-出于稳定性考虑暂时不使用mt76开源驱动，请使用此处的[闭源驱动](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)。
+~~出于稳定性考虑暂时不使用mt76开源驱动，请使用此处的[闭源驱动](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0)。~~
+目前使用Lean已在源码中集成的驱动(package/lean/mt)，如出现问题请及时向上游反馈。
 
 将.config文件放置在源代码根目录下运行`make -jX V=s`即可编译，如提示out of sync请重新运行`make menuconfig`然后保存再进行编译。其中X为CPU线程数。如需已编译好的固件请在[releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/)中自取。
 
@@ -23,7 +24,7 @@ luci-app-firewall
 luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
-luci-app-ssr-plus (v2ray+ShadowsocksR&服务端)
+luci-app-ssr-plus (v2ray+trojan+ShadowsocksR&服务端)
 luci-app-v2ray-server
 luci-app-upnp
 luci-app-vlmcsd (KMS服务器)
@@ -31,7 +32,7 @@ luci-app-wifischedule
 luci-app-wol (网络唤醒)
 luci-theme-argon
 ipv6helper
-mtk 5.0.2.0闭源驱动
+集成无线驱动
 ```
 
 ***
@@ -40,7 +41,9 @@ mtk 5.0.2.0闭源驱动
 
 If you want to use this config file to compile your firmware, go to [here](https://github.com/coolsnowwolf/lede/) first to get the source code repository and more config info:
 
-Due to stability reasons, not using mt76 open source driver for now. Please check [here](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0) for closed source driver.
+~~Due to stability reasons, not using mt76 open source driver for now. Please check [here](https://github.com/MeIsReallyBa/k2p-openwrt-mt7615_5.0.2.0) for closed source driver.~~
+Using Lean's built-in wireless driver(/package/lean/mt).
+
 Then put the .config file under the code directory and run `make -jX V=s`, X as your CPU core number. If prompt "out of sync" simply run `make menuconfig` again then compile. Go to [releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/) for prebuilt images if you prefer.
 
 If I keep this file up to date, you should be able to compile your own firmware.
@@ -57,7 +60,7 @@ luci-app-firewall
 luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
-luci-app-ssr-plus (v2ray+ShadowsocksR&server)
+luci-app-ssr-plus (v2ray+trojan+ShadowsocksR&server)
 luci-app-v2ray-server
 luci-app-upnp
 luci-app-vlmcsd (KMS Server)
@@ -65,5 +68,5 @@ luci-app-wifischedule
 luci-app-wol (Wake on Lan)
 luci-theme-argon
 ipv6helper
-mtk 5.0.2.0 closed source driver
+wireless driver built-in
 ```
