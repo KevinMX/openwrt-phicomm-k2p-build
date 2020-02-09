@@ -8,7 +8,7 @@
 
 将.config文件放置在源代码根目录下运行`make -jX V=s`即可编译，如提示out of sync请重新运行`make menuconfig`然后保存再进行编译。其中X为CPU线程数。如需已编译好的固件请在[releases](https://github.com/KevinMX/openwrt-phicomm-k2p-build/releases/)中自取。
 
-编译教程参考：[OpenWrt/LEDE编译小记（斐讯K2P）](https://mary.kevinmx.tk/index.php/archives/4/)
+编译教程参考：[OpenWrt/LEDE编译小记（斐讯K2P）](https://mary.kevinmx.tk/index.php/archives/k2p.html)
 
 如果本文件及时更新，应该是能正常编译固件的（指openwrt代码仓库没有问题的情况下）
 
