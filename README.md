@@ -25,12 +25,13 @@ luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+trojan+ShadowsocksR&服务端)
-luci-app-v2ray-server
+luci-app-unblockmusic（网易云解锁）
 luci-app-upnp
 luci-app-vlmcsd (KMS服务器)
 luci-app-wifischedule
 luci-app-wol (网络唤醒)
 luci-theme-argon
+luci-theme-netgear
 ipv6helper
 集成无线驱动
 ```
@@ -61,12 +62,13 @@ luci-app-flowoffload
 luci-app-ramfree
 luci-app-sqm
 luci-app-ssr-plus (v2ray+trojan+ShadowsocksR&server)
-luci-app-v2ray-server
+luci-app-unblockmusic (Unblock Netease Music)
 luci-app-upnp
 luci-app-vlmcsd (KMS Server)
 luci-app-wifischedule
 luci-app-wol (Wake on Lan)
 luci-theme-argon
+luci-theme-netgear
 ipv6helper
 wireless driver built-in
 ```
