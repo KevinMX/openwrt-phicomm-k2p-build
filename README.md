@@ -3,7 +3,7 @@
 
 ### This repository is archived&deprecated in favor of [Actions-OpenWrt-Phicomm-K2P](https://github.com/KevinMX/Actions-OpenWrt-Phicomm-K2P).
 
-###本仓库已归档并不再维护，推荐使用GitHub Actions自动化构建：[Actions-OpenWrt-Phicomm-K2P](https://github.com/KevinMX/Actions-OpenWrt-Phicomm-K2P)
+### 本仓库已归档并不再维护，推荐使用GitHub Actions自动化构建：[Actions-OpenWrt-Phicomm-K2P](https://github.com/KevinMX/Actions-OpenWrt-Phicomm-K2P)
 
 如果你要用本仓库的配置文件编译，建议先去[lean的仓库](https://github.com/coolsnowwolf/lede/)看一下相关说明，本配置文件为lean的OpenWrt源码生成，本意是个人使用以及备份。
 
